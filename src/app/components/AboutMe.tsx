@@ -46,11 +46,17 @@ const SOCIAL_LINKS = [
 const AboutMe: React.FC<{}> = () => {
   return (
     <div className="flex flex-col justify-center items-center sm:flex-row gap-4">
-      <Image width={200} height={200} src={pic} alt={text.ahmedIbrahim} />
+      <Image
+        className="rounded-full"
+        width={200}
+        height={200}
+        src={pic}
+        alt={text.ahmedIbrahim}
+      />
 
-      <div className="sm:pt-10">
+      <div className="sm:pt-4">
         <h1 className="mb-1 text-sm">{text.aboutme.header}</h1>
-        <p className="mb-3 font-medium">{text.aboutme.bdoy}</p>
+        <p className="mb-3 font-medium">{text.aboutme.body}</p>
 
         <div className="flex flex-row gap-2">
           {SOCIAL_LINKS.map(({ icon, text, link }) => (

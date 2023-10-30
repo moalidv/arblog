@@ -1,18 +1,8 @@
 {
   "posts": [
     {
-      "slug": "blog-anchor",
-      "filename": "blog-anchor.md",
-      "published": true
-    },
-    {
-      "slug": "why-i-have-no-phone",
-      "filename": "why-i-have-no-phone.md",
-      "published": true
-    },
-    {
-      "slug": "why-i-left-medical-school",
-      "filename": "why-i-left-med-school.md",
+      "slug": "my-first-blog-post",
+      "filename": "postone.md",
       "published": true
     }
   ]
